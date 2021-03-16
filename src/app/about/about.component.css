@@ -1,0 +1,11 @@
+.container-fluid{
+ text-align: center;
+  padding-top: 5%;
+}
+
+p {
+  margin: 0;
+  font-family: Arial;
+  font-size: large;
+  display: inline-grid;
+}
