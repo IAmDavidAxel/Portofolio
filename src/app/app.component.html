@@ -1,57 +1,27 @@
 
-<div class="container-fluid">
-  <div class="row">
-
-  </div>
-
-  <div class="row">
-    <div class="col-lg-12">
-      <nav class="navbar  navbar-expand-xl sticky-top navbar-dark bg-dark" >
-        <a class="navbar-brand" routerLink="">David</a>
-        <button class="navbar-toggler" type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class ="nav-item active">
-              <a class="nav-link" tabindex="-1">
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-
-
-
-            <li class="nav-item">
-              <a class="nav-link" routerLink="">Home</a>
-            </li>
-
-
-            <li class="nav-item">
-              <a class="nav-link" routerLink="about"> About Me</a>
-            </li>
-
-
-            <li class="nav-item">
-              <a class="nav-link" routerLink="skills">Skills</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" routerLink="contact">Contact Me</a>
-            </li>
-
-
-          </ul>
-        </div>
-      </nav>
+<header class="l-header">
+  <nav class="nav bd-grid">
+    <div>
+      <a href="#" class="nav__logo">David</a>
     </div>
-  </div>
 
-</div>
+    <div class="nav__menu" id="nav-menu">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="nav__toggle" id="nav-toggle">
+      <i class='bx bx-menu'></i>
+    </div>
+  </nav>
+</header>
+
+
 <router-outlet></router-outlet>
 
 <footer class="pt-4 my-md-5 pt-md-5 border-top">
