@@ -49,6 +49,24 @@
 *,::before,::after{
   box-sizing: border-box;
 }
+
+/*========== Variables Dark theme ==========*/
+body.dark-theme{
+  --title-color: #F1F3F2;
+  --text-color: #C7D1CC;
+  --body-color: #1D2521;
+  --container-color: #27302C;
+}
+
+/*========== Button Dark/Light ==========*/
+.change-theme{
+  position: absolute;
+  right: 1rem;
+  top: 1.8rem;
+  color: var(--text-color);
+  font-size: 1rem;
+  cursor: pointer;
+}
 html{
   scroll-behavior: smooth;
 }
@@ -232,6 +250,10 @@ img{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
+/* Change background header */
+.scroll-header{
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
 /* ===== ABOUT =====*/
 .about__container{
   row-gap: 2rem;
@@ -300,8 +322,14 @@ img{
 .skills__ux{
   width: 85%;
 }
+
+.skills__java{
+  width: 90%;
+}
 .skills__img{
   border-radius: .5rem;
+  height: 20rem;
+  width: 15rem;
 }
 
 /* ===== WORK =====*/
